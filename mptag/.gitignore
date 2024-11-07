@@ -1,0 +1,46 @@
+
+# General
+.DS_Store
+node_modules/
+dist/
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.pkl
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+*.cover
+*.pyc
+*.pyo
+*.pyd
+.tox/
+.cache/
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# React and JS
+/build/
+.cache/
+*.tsbuildinfo
+public/
+
+# VS Code
+.vscode/
