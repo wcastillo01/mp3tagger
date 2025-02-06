@@ -1,0 +1,176 @@
+.uploader-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 24px;
+}
+
+.tab {
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #718096;
+    position: relative;
+}
+
+.tab.active {
+    color: #1DB954;
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #1DB954;
+}
+
+.dropzone {
+    border: 2px dashed #e2e8f0;
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.dropzone.dragging {
+    border-color: #3182ce;
+    background-color: #ebf8ff;
+}
+
+.dropzone label {
+    cursor: pointer;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    color: #a0aec0;
+}
+
+.youtube-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 16px;
+    color: #e53e3e;
+}
+
+.main-text {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: #718096;
+}
+
+.youtube-input {
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+}
+
+.youtube-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.helper-text {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 8px;
+}
+
+.metadata-form {
+    margin-top: 24px;
+}
+
+.selected-file {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    color: #3182ce;
+}
+
+.icon.youtube {
+    color: #e53e3e;
+}
+
+.file-title {
+    font-weight: 500;
+}
+
+.file-name {
+    font-size: 14px;
+    color: #718096;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
+
+.submit-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #2c5282;
+}
